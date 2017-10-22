@@ -1,0 +1,152 @@
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	color: #000;
+	background: #fff;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+header, section, footer {
+	width: 100%;
+	padding: 2em;
+}
+
+.logo, .botones {
+	display: inline-block;
+	vertical-align: middle;	
+	width: 30%;
+	text-align: left;
+}
+
+.logo span {
+	font-size: 2.5em;
+}
+
+.botones {
+	width: 65%;
+	text-align: right;
+}
+
+.botones h4 {
+	display: inline-block;
+	font-size: 1em;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.botones a, .info-home a {
+	padding: .8em 1em;
+	background: #444D48;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+section {
+	background: #7C8D83;
+}
+
+.info-home, .img-contenedor {
+	display: inline-block;
+	vertical-align: middle;	
+	width: 45%;
+	text-align: left;
+}
+
+.info-home {
+	padding-right: 1em;
+}
+
+.info-home h1 {
+	font-size; 2.5em;
+	text-transform: uppercase;
+	margin-bottom: .8em;
+}
+
+.info-home p {
+	line-height: 23px;
+	margin-bottom: 2em;
+}
+
+.img-contenedor img {
+	width: 100%;
+	display: block;
+}
+
+.logearse {		
+	background: #2D3330;
+	padding-top: 1.5em;
+	height: 110px;
+	margin-top: -110px;
+}
+
+.logearse form input {
+	padding: .5em;
+	border-radius: .5em;
+	margin: 0 5px 20px 5px;
+}
+
+.logearse form input[type="button"] {
+	background: #7C8D83;
+	color: #fff;
+	padding: .5em 1em;
+}
+
+.logearse a {
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.registrar {
+	background: rgba(68,77,72,.85);
+	color: #fff;
+	position: absolute;
+	width: 350px;
+	height: 100%;
+	top: 0;
+	padding: 2em;
+	left: -350px;
+	z-index: 200;
+}
+
+.registrar h1 {
+	font-size: 2.5em;
+	text-transform: uppercase;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+.registrar form input {
+	width: 100%;
+	padding: .8em;
+	border-radius: .5em;
+	margin-top: 8px;
+	outline: none;
+}
+
+.registrar form input:focus {
+	box-shadow: 0 0 30px #000;
+}
+
+.registrar a {
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.invisible {
+	width: 100%;
+	height: 100%;
+	position: absolute;	
+	display: none;
+	z-index: 100;
+}
